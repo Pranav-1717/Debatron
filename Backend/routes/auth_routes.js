@@ -1,9 +1,9 @@
+// E:\Debatron\Backend\routes\auth_routes.js
 const express = require('express');
 const router = express.Router();
-const validateToken = require('../middlewares/authmiddleware');
-const {signUp, login} = require('../controllers/authController');
+const {signup, login} = require('../controllers/Auth_controller');
 
-router.post('/signup',signUp);
-router.post('/login', validateToken , login);
+router.post('/signup',signup);
+router.post('/login' , login);
 
 module.exports = router;

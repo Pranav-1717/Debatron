@@ -1,17 +1,11 @@
+const { GoogleGenerativeAI } = require('@google/generative-ai');
+const WebSocket = require('ws');
+const createLogger  = require('../utils/logger');
+const logger = createLogger('AI Client ');
+require('dotenv').config();
 
-import { GoogleGenerativeAI } from '@google/generative-ai';
-import WebSocket from 'ws';
-import logger from '../config/logger.js';
-
-// Gemini 2.5 Pro client
-export const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY)
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY)
   .getGenerativeModel({ model: 'gemini-2.5-pro' });
-
-export async function scoreDebate(transcriptByUser) {
-  const prompt = buildPrompt(transcriptByUser);
-  const res = await genAI.generateContent(prompt);
-  return JSON.parse(res.response.candidates[0].content);
-}
 
 function buildPrompt(byUser) {
   const lines = [
@@ -26,8 +20,15 @@ function buildPrompt(byUser) {
   return lines.join('\n');
 }
 
+function scoreDebate(transcriptByUser) {
+  const prompt = buildPrompt(transcriptByUser);
+  return genAI.generateContent(prompt).then((res) => {
+    return JSON.parse(res.response.candidates[0].content);
+  });
+}
+
 // Deepgram streaming WebSocket (one per browser client)
-export function createDeepgramWS() {
+function createDeepgramWS() {
   const url =
     'wss://api.deepgram.com/v1/listen?encoding=opus&sample_rate=48000&punctuate=true&model=nova';
   const ws = new WebSocket(url, {
@@ -37,3 +38,9 @@ export function createDeepgramWS() {
   ws.on('error', (e) => logger.error('Deepgram WS error', e));
   return ws; // caller streams Opus blobs via ws.send(blob)
 }
+
+module.exports = {
+  scoreDebate,
+  createDeepgramWS,
+  buildPrompt,
+};

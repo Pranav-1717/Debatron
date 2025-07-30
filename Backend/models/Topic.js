@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+const mongoose = require('mongoose');
 
 const topicSchema = new mongoose.Schema({
   title:       { type: String, required: true, unique: true },
@@ -8,4 +8,4 @@ const topicSchema = new mongoose.Schema({
   createdAt:   { type: Date, default: Date.now },
 });
 
-export default mongoose.model('Topic', topicSchema);
+module.exports = mongoose.model('Topic', topicSchema);

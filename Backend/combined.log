@@ -1,0 +1,392 @@
+{"level":"info","message":"Socket.IO callbacks injected into roomService.js.","service":"RoomService","timestamp":"2025-07-24T19:41:44.777Z"}
+{"level":"info","message":"Socket server initialized 🚀","service":"SocketServer","timestamp":"2025-07-24T19:41:44.773Z"}
+{"level":"info","message":"roomService callbacks injected into socket.js (specifically leaveRoom).","service":"SocketServer","timestamp":"2025-07-24T19:41:44.777Z"}
+{"level":"info","message":"MongoDB connected: localhost","service":"MongoDB","timestamp":"2025-07-24T19:41:44.799Z"}
+{"level":"info","message":"Socket authenticated: 1w4s_gxH2bEWhyRYAAAB (User: 687aa5e71ef345cae0fe41ca)","service":"SocketServer","timestamp":"2025-07-24T19:41:46.333Z"}
+{"level":"info","message":"Socket connected: 1w4s_gxH2bEWhyRYAAAB (User: 687aa5e71ef345cae0fe41ca)","service":"SocketServer","timestamp":"2025-07-24T19:41:46.335Z"}
+{"level":"info","message":"User 687aa5e71ef345cae0fe41ca joined Socket.IO room 68828976369bc2e53148c441.","service":"SocketServer","timestamp":"2025-07-24T19:41:46.344Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 68828976369bc2e53148c441 is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T19:41:46.357Z"}
+{"level":"debug","message":"Socket 1w4s_gxH2bEWhyRYAAAB in room 68828976369bc2e53148c441 updated to phase: pending","service":"SocketServer","timestamp":"2025-07-24T19:41:46.360Z"}
+{"level":"info","message":"Token decoded for user ID: 687aa5ff1ef345cae0fe41cd","service":"AuthMiddleware","timestamp":"2025-07-24T19:41:51.282Z"}
+{"level":"info","message":"User Vedant authenticated. Proceeding.","service":"AuthMiddleware","timestamp":"2025-07-24T19:41:51.285Z"}
+{"level":"info","message":"[joinDebate] Called with userId: 687aa5ff1ef345cae0fe41cd, topicId: 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:41:51.294Z"}
+{"level":"info","message":"[joinDebate] Topic \"Should social media be regulated?\" found.","service":"RoomService","timestamp":"2025-07-24T19:41:51.298Z"}
+{"level":"info","message":"[joinDebate] Found existing pending room: 6882838647d73dd0b6f64b62. Participants: 1/6","service":"RoomService","timestamp":"2025-07-24T19:41:51.303Z"}
+{"level":"info","message":"[joinDebate] User 687aa5ff1ef345cae0fe41cd ADDED to DebateRoom 6882838647d73dd0b6f64b62. Current participants: 2","service":"RoomService","timestamp":"2025-07-24T19:41:51.313Z"}
+{"level":"info","message":"[joinDebate] Attempting to create Participation record for userId: 687aa5ff1ef345cae0fe41cd, topicId: 687aa7a8986d7c481f0324fd, roomId: 6882838647d73dd0b6f64b62","service":"RoomService","timestamp":"2025-07-24T19:41:51.314Z"}
+{"level":"warn","message":"[joinDebate] Participation record already exists for user 687aa5ff1ef345cae0fe41cd and topic 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:41:51.320Z"}
+{"level":"info","message":"[joinDebate] DebateRoom 6882838647d73dd0b6f64b62 added to user 687aa5ff1ef345cae0fe41cd's debate history.","service":"RoomService","timestamp":"2025-07-24T19:41:51.324Z"}
+{"level":"info","message":"[joinDebate] DebateRoom 6882838647d73dd0b6f64b62 has 2 participants (enough to start). Calling autoStartDebate.","service":"RoomService","timestamp":"2025-07-24T19:41:51.325Z"}
+{"level":"info","message":"[autoStartDebate] Setting timeout for room 6882838647d73dd0b6f64b62 to start in 5 seconds.","service":"RoomService","timestamp":"2025-07-24T19:41:51.326Z"}
+{"level":"info","message":"Socket authenticated: PBDI517f5FIFLqVXAAAE (User: 687aa5ff1ef345cae0fe41cd)","service":"SocketServer","timestamp":"2025-07-24T19:41:51.341Z"}
+{"level":"info","message":"Socket connected: PBDI517f5FIFLqVXAAAE (User: 687aa5ff1ef345cae0fe41cd)","service":"SocketServer","timestamp":"2025-07-24T19:41:51.343Z"}
+{"level":"info","message":"User 687aa5ff1ef345cae0fe41cd joined Socket.IO room 6882838647d73dd0b6f64b62.","service":"SocketServer","timestamp":"2025-07-24T19:41:51.349Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 6882838647d73dd0b6f64b62 is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T19:41:51.352Z"}
+{"level":"debug","message":"Socket PBDI517f5FIFLqVXAAAE in room 6882838647d73dd0b6f64b62 updated to phase: pending","service":"SocketServer","timestamp":"2025-07-24T19:41:51.353Z"}
+{"level":"info","message":"[autoStartDebate] Room 6882838647d73dd0b6f64b62 AUTO-STARTED with 2 participants.","service":"RoomService","timestamp":"2025-07-24T19:41:56.341Z"}
+{"level":"info","message":"[startDebateTimers] Setting up timers for room 6882838647d73dd0b6f64b62: CAPTURE_MS: 15000","service":"SocketServer","timestamp":"2025-07-24T19:41:56.341Z"}
+{"level":"info","message":"[startDebateTimers] Room 6882838647d73dd0b6f64b62: Capture window OPEN.","service":"SocketServer","timestamp":"2025-07-24T19:41:56.354Z"}
+{"level":"warn","message":"No sockets found in room 6882838647d73dd0b6f64b62 to update phase to debate-start.","service":"SocketServer","timestamp":"2025-07-24T19:41:56.354Z"}
+{"level":"info","message":"Socket disconnected: 1w4s_gxH2bEWhyRYAAAB (User: 687aa5e71ef345cae0fe41ca). Reason: transport close","service":"SocketServer","timestamp":"2025-07-24T19:42:02.130Z"}
+{"level":"info","message":"Socket authenticated: V440Mh72yEchm6QaAAAH (User: 687aa5e71ef345cae0fe41ca)","service":"SocketServer","timestamp":"2025-07-24T19:42:02.258Z"}
+{"level":"info","message":"Socket connected: V440Mh72yEchm6QaAAAH (User: 687aa5e71ef345cae0fe41ca)","service":"SocketServer","timestamp":"2025-07-24T19:42:02.259Z"}
+{"level":"info","message":"User 687aa5e71ef345cae0fe41ca joined Socket.IO room 68828976369bc2e53148c441.","service":"SocketServer","timestamp":"2025-07-24T19:42:02.265Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 68828976369bc2e53148c441 is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T19:42:02.269Z"}
+{"level":"debug","message":"Socket V440Mh72yEchm6QaAAAH in room 68828976369bc2e53148c441 updated to phase: pending","service":"SocketServer","timestamp":"2025-07-24T19:42:02.270Z"}
+{"level":"info","message":"Socket disconnected: V440Mh72yEchm6QaAAAH (User: 687aa5e71ef345cae0fe41ca). Reason: client namespace disconnect","service":"SocketServer","timestamp":"2025-07-24T19:42:04.764Z"}
+{"level":"info","message":"[leaveRoom] User 687aa5e71ef345cae0fe41ca removed from room 68828976369bc2e53148c441. Remaining: 0","service":"RoomService","timestamp":"2025-07-24T19:42:04.765Z"}
+{"level":"info","message":"[leaveRoom] Room 68828976369bc2e53148c441 CANCELLED due to insufficient participants (0).","service":"RoomService","timestamp":"2025-07-24T19:42:04.771Z"}
+{"level":"warn","message":"No sockets found in room 68828976369bc2e53148c441 to update phase to cancelled.","service":"SocketServer","timestamp":"2025-07-24T19:42:04.773Z"}
+{"level":"info","message":"User 687aa5e71ef345cae0fe41ca left Socket.IO room 68828976369bc2e53148c441 via 'leave-room' event.","service":"SocketServer","timestamp":"2025-07-24T19:42:04.773Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:42:04.781Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:42:04.788Z"}
+{"level":"info","message":"Token decoded for user ID: 687aa5e71ef345cae0fe41ca","service":"AuthMiddleware","timestamp":"2025-07-24T19:42:06.352Z"}
+{"level":"info","message":"User Pranav authenticated. Proceeding.","service":"AuthMiddleware","timestamp":"2025-07-24T19:42:06.354Z"}
+{"level":"info","message":"[joinDebate] Called with userId: 687aa5e71ef345cae0fe41ca, topicId: 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:42:06.361Z"}
+{"level":"info","message":"[joinDebate] Topic \"Should social media be regulated?\" found.","service":"RoomService","timestamp":"2025-07-24T19:42:06.363Z"}
+{"level":"info","message":"[joinDebate] No suitable pending room found for topic 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:42:06.366Z"}
+{"level":"info","message":"[joinDebate] Creating a NEW DebateRoom for topic 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:42:06.366Z"}
+{"level":"info","message":"[joinDebate] NEW DebateRoom created with ID: 68828c8ed52ebb630e724219","service":"RoomService","timestamp":"2025-07-24T19:42:06.369Z"}
+{"level":"info","message":"[joinDebate] User 687aa5e71ef345cae0fe41ca ADDED to DebateRoom 68828c8ed52ebb630e724219. Current participants: 1","service":"RoomService","timestamp":"2025-07-24T19:42:06.372Z"}
+{"level":"info","message":"[joinDebate] Attempting to create Participation record for userId: 687aa5e71ef345cae0fe41ca, topicId: 687aa7a8986d7c481f0324fd, roomId: 68828c8ed52ebb630e724219","service":"RoomService","timestamp":"2025-07-24T19:42:06.373Z"}
+{"level":"warn","message":"[joinDebate] Participation record already exists for user 687aa5e71ef345cae0fe41ca and topic 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:42:06.376Z"}
+{"level":"info","message":"[joinDebate] DebateRoom 68828c8ed52ebb630e724219 added to user 687aa5e71ef345cae0fe41ca's debate history.","service":"RoomService","timestamp":"2025-07-24T19:42:06.381Z"}
+{"level":"info","message":"[joinDebate] DebateRoom 68828c8ed52ebb630e724219 has 1 participants (not enough to auto-start yet).","service":"RoomService","timestamp":"2025-07-24T19:42:06.381Z"}
+{"level":"info","message":"Socket authenticated: m_aK2VN9s3XDSDw8AAAK (User: 687aa5e71ef345cae0fe41ca)","service":"SocketServer","timestamp":"2025-07-24T19:42:06.402Z"}
+{"level":"info","message":"Socket connected: m_aK2VN9s3XDSDw8AAAK (User: 687aa5e71ef345cae0fe41ca)","service":"SocketServer","timestamp":"2025-07-24T19:42:06.403Z"}
+{"level":"info","message":"User 687aa5e71ef345cae0fe41ca joined Socket.IO room 68828c8ed52ebb630e724219.","service":"SocketServer","timestamp":"2025-07-24T19:42:06.408Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 68828c8ed52ebb630e724219 is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T19:42:06.411Z"}
+{"level":"debug","message":"Socket m_aK2VN9s3XDSDw8AAAK in room 68828c8ed52ebb630e724219 updated to phase: pending","service":"SocketServer","timestamp":"2025-07-24T19:42:06.412Z"}
+{"level":"info","message":"[finalizeDebate] Finalizing room 6882838647d73dd0b6f64b62: Fetching messages for scoring.","service":"SocketServer","timestamp":"2025-07-24T19:42:11.360Z"}
+{"level":"info","message":"[finalizeDebate] Sending transcript for room 6882838647d73dd0b6f64b62 to AI for scoring.","service":"SocketServer","timestamp":"2025-07-24T19:42:11.362Z"}
+{"level":"error","message":"[finalizeDebate] Error scoring debate 6882838647d73dd0b6f64b62 with AI: \"[object Object]\" is not valid JSON \"[object Object]\" is not valid JSON","service":"SocketServer","stack":"SyntaxError: \"[object Object]\" is not valid JSON\n    at JSON.parse (<anonymous>)\n    at E:\\Debatron\\Backend\\utils\\aiClient.js:26:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async finalizeDebate (E:\\Debatron\\Backend\\socket.js:201:24)","timestamp":"2025-07-24T19:43:06.173Z"}
+{"level":"info","message":"[finalizeDebate] Room 6882838647d73dd0b6f64b62 finished.","service":"SocketServer","timestamp":"2025-07-24T19:43:06.174Z"}
+{"level":"warn","message":"No sockets found in room 6882838647d73dd0b6f64b62 to update phase to finished.","service":"SocketServer","timestamp":"2025-07-24T19:43:06.174Z"}
+{"level":"info","message":"Socket disconnected: PBDI517f5FIFLqVXAAAE (User: 687aa5ff1ef345cae0fe41cd). Reason: client namespace disconnect","service":"SocketServer","timestamp":"2025-07-24T19:43:50.586Z"}
+{"level":"info","message":"[leaveRoom] User 687aa5ff1ef345cae0fe41cd removed from room 6882838647d73dd0b6f64b62. Remaining: 1","service":"RoomService","timestamp":"2025-07-24T19:43:50.587Z"}
+{"level":"info","message":"User 687aa5ff1ef345cae0fe41cd left Socket.IO room 6882838647d73dd0b6f64b62 via 'leave-room' event.","service":"SocketServer","timestamp":"2025-07-24T19:43:50.588Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:43:50.594Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:43:50.600Z"}
+{"level":"info","message":"Token decoded for user ID: 687aa5ff1ef345cae0fe41cd","service":"AuthMiddleware","timestamp":"2025-07-24T19:43:52.420Z"}
+{"level":"info","message":"User Vedant authenticated. Proceeding.","service":"AuthMiddleware","timestamp":"2025-07-24T19:43:52.422Z"}
+{"level":"info","message":"[joinDebate] Called with userId: 687aa5ff1ef345cae0fe41cd, topicId: 687aa7c2986d7c481f032503.","service":"RoomService","timestamp":"2025-07-24T19:43:52.427Z"}
+{"level":"info","message":"[joinDebate] Topic \"Should college education be free?\" found.","service":"RoomService","timestamp":"2025-07-24T19:43:52.429Z"}
+{"level":"info","message":"[joinDebate] No suitable pending room found for topic 687aa7c2986d7c481f032503.","service":"RoomService","timestamp":"2025-07-24T19:43:52.432Z"}
+{"level":"info","message":"[joinDebate] Creating a NEW DebateRoom for topic 687aa7c2986d7c481f032503.","service":"RoomService","timestamp":"2025-07-24T19:43:52.432Z"}
+{"level":"info","message":"[joinDebate] NEW DebateRoom created with ID: 68828cf8d52ebb630e72422d","service":"RoomService","timestamp":"2025-07-24T19:43:52.434Z"}
+{"level":"info","message":"[joinDebate] User 687aa5ff1ef345cae0fe41cd ADDED to DebateRoom 68828cf8d52ebb630e72422d. Current participants: 1","service":"RoomService","timestamp":"2025-07-24T19:43:52.437Z"}
+{"level":"info","message":"[joinDebate] Attempting to create Participation record for userId: 687aa5ff1ef345cae0fe41cd, topicId: 687aa7c2986d7c481f032503, roomId: 68828cf8d52ebb630e72422d","service":"RoomService","timestamp":"2025-07-24T19:43:52.437Z"}
+{"level":"info","message":"[joinDebate] Participation record created successfully.","service":"RoomService","timestamp":"2025-07-24T19:43:52.440Z"}
+{"level":"info","message":"[joinDebate] DebateRoom 68828cf8d52ebb630e72422d added to user 687aa5ff1ef345cae0fe41cd's debate history.","service":"RoomService","timestamp":"2025-07-24T19:43:52.445Z"}
+{"level":"info","message":"[joinDebate] DebateRoom 68828cf8d52ebb630e72422d has 1 participants (not enough to auto-start yet).","service":"RoomService","timestamp":"2025-07-24T19:43:52.445Z"}
+{"level":"info","message":"Socket authenticated: sT4WFQYEsndurMgyAAAN (User: 687aa5ff1ef345cae0fe41cd)","service":"SocketServer","timestamp":"2025-07-24T19:43:52.461Z"}
+{"level":"info","message":"Socket connected: sT4WFQYEsndurMgyAAAN (User: 687aa5ff1ef345cae0fe41cd)","service":"SocketServer","timestamp":"2025-07-24T19:43:52.462Z"}
+{"level":"info","message":"User 687aa5ff1ef345cae0fe41cd joined Socket.IO room 68828cf8d52ebb630e72422d.","service":"SocketServer","timestamp":"2025-07-24T19:43:52.467Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 68828cf8d52ebb630e72422d is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T19:43:52.472Z"}
+{"level":"debug","message":"Socket sT4WFQYEsndurMgyAAAN in room 68828cf8d52ebb630e72422d updated to phase: pending","service":"SocketServer","timestamp":"2025-07-24T19:43:52.473Z"}
+{"level":"info","message":"Socket disconnected: m_aK2VN9s3XDSDw8AAAK (User: 687aa5e71ef345cae0fe41ca). Reason: client namespace disconnect","service":"SocketServer","timestamp":"2025-07-24T19:43:59.446Z"}
+{"level":"info","message":"[leaveRoom] User 687aa5e71ef345cae0fe41ca removed from room 68828c8ed52ebb630e724219. Remaining: 0","service":"RoomService","timestamp":"2025-07-24T19:43:59.449Z"}
+{"level":"info","message":"[leaveRoom] Room 68828c8ed52ebb630e724219 CANCELLED due to insufficient participants (0).","service":"RoomService","timestamp":"2025-07-24T19:43:59.451Z"}
+{"level":"warn","message":"No sockets found in room 68828c8ed52ebb630e724219 to update phase to cancelled.","service":"SocketServer","timestamp":"2025-07-24T19:43:59.451Z"}
+{"level":"info","message":"User 687aa5e71ef345cae0fe41ca left Socket.IO room 68828c8ed52ebb630e724219 via 'leave-room' event.","service":"SocketServer","timestamp":"2025-07-24T19:43:59.454Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:43:59.461Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:43:59.468Z"}
+{"level":"info","message":"Token decoded for user ID: 687aa5e71ef345cae0fe41ca","service":"AuthMiddleware","timestamp":"2025-07-24T19:44:01.338Z"}
+{"level":"info","message":"User Pranav authenticated. Proceeding.","service":"AuthMiddleware","timestamp":"2025-07-24T19:44:01.340Z"}
+{"level":"info","message":"[joinDebate] Called with userId: 687aa5e71ef345cae0fe41ca, topicId: 687aa7c2986d7c481f032503.","service":"RoomService","timestamp":"2025-07-24T19:44:01.344Z"}
+{"level":"info","message":"[joinDebate] Topic \"Should college education be free?\" found.","service":"RoomService","timestamp":"2025-07-24T19:44:01.347Z"}
+{"level":"info","message":"[joinDebate] Found existing pending room: 68828cf8d52ebb630e72422d. Participants: 1/6","service":"RoomService","timestamp":"2025-07-24T19:44:01.350Z"}
+{"level":"info","message":"[joinDebate] User 687aa5e71ef345cae0fe41ca ADDED to DebateRoom 68828cf8d52ebb630e72422d. Current participants: 2","service":"RoomService","timestamp":"2025-07-24T19:44:01.352Z"}
+{"level":"info","message":"[joinDebate] Attempting to create Participation record for userId: 687aa5e71ef345cae0fe41ca, topicId: 687aa7c2986d7c481f032503, roomId: 68828cf8d52ebb630e72422d","service":"RoomService","timestamp":"2025-07-24T19:44:01.352Z"}
+{"level":"info","message":"[joinDebate] Participation record created successfully.","service":"RoomService","timestamp":"2025-07-24T19:44:01.355Z"}
+{"level":"info","message":"[joinDebate] DebateRoom 68828cf8d52ebb630e72422d added to user 687aa5e71ef345cae0fe41ca's debate history.","service":"RoomService","timestamp":"2025-07-24T19:44:01.358Z"}
+{"level":"info","message":"[joinDebate] DebateRoom 68828cf8d52ebb630e72422d has 2 participants (enough to start). Calling autoStartDebate.","service":"RoomService","timestamp":"2025-07-24T19:44:01.359Z"}
+{"level":"info","message":"[autoStartDebate] Setting timeout for room 68828cf8d52ebb630e72422d to start in 5 seconds.","service":"RoomService","timestamp":"2025-07-24T19:44:01.359Z"}
+{"level":"info","message":"Socket authenticated: 9dUJTHS6-HCJvG7NAAAQ (User: 687aa5e71ef345cae0fe41ca)","service":"SocketServer","timestamp":"2025-07-24T19:44:01.381Z"}
+{"level":"info","message":"Socket connected: 9dUJTHS6-HCJvG7NAAAQ (User: 687aa5e71ef345cae0fe41ca)","service":"SocketServer","timestamp":"2025-07-24T19:44:01.382Z"}
+{"level":"info","message":"User 687aa5e71ef345cae0fe41ca joined Socket.IO room 68828cf8d52ebb630e72422d.","service":"SocketServer","timestamp":"2025-07-24T19:44:01.388Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 68828cf8d52ebb630e72422d is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T19:44:01.391Z"}
+{"level":"debug","message":"Socket sT4WFQYEsndurMgyAAAN in room 68828cf8d52ebb630e72422d updated to phase: pending","service":"SocketServer","timestamp":"2025-07-24T19:44:01.391Z"}
+{"level":"debug","message":"Socket 9dUJTHS6-HCJvG7NAAAQ in room 68828cf8d52ebb630e72422d updated to phase: pending","service":"SocketServer","timestamp":"2025-07-24T19:44:01.392Z"}
+{"level":"info","message":"[autoStartDebate] Room 68828cf8d52ebb630e72422d AUTO-STARTED with 2 participants.","service":"RoomService","timestamp":"2025-07-24T19:44:06.368Z"}
+{"level":"info","message":"[startDebateTimers] Setting up timers for room 68828cf8d52ebb630e72422d: CAPTURE_MS: 15000","service":"SocketServer","timestamp":"2025-07-24T19:44:06.368Z"}
+{"level":"info","message":"[startDebateTimers] Room 68828cf8d52ebb630e72422d: Capture window OPEN.","service":"SocketServer","timestamp":"2025-07-24T19:44:06.381Z"}
+{"level":"warn","message":"No sockets found in room 68828cf8d52ebb630e72422d to update phase to debate-start.","service":"SocketServer","timestamp":"2025-07-24T19:44:06.382Z"}
+{"level":"info","message":"[finalizeDebate] Finalizing room 68828cf8d52ebb630e72422d: Fetching messages for scoring.","service":"SocketServer","timestamp":"2025-07-24T19:44:21.394Z"}
+{"level":"info","message":"[finalizeDebate] Sending transcript for room 68828cf8d52ebb630e72422d to AI for scoring.","service":"SocketServer","timestamp":"2025-07-24T19:44:21.395Z"}
+{"level":"error","message":"[finalizeDebate] Error scoring debate 68828cf8d52ebb630e72422d with AI: \"[object Object]\" is not valid JSON \"[object Object]\" is not valid JSON","service":"SocketServer","stack":"SyntaxError: \"[object Object]\" is not valid JSON\n    at JSON.parse (<anonymous>)\n    at E:\\Debatron\\Backend\\utils\\aiClient.js:26:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async finalizeDebate (E:\\Debatron\\Backend\\socket.js:201:24)","timestamp":"2025-07-24T19:45:11.515Z"}
+{"level":"info","message":"[finalizeDebate] Room 68828cf8d52ebb630e72422d finished.","service":"SocketServer","timestamp":"2025-07-24T19:45:11.516Z"}
+{"level":"warn","message":"No sockets found in room 68828cf8d52ebb630e72422d to update phase to finished.","service":"SocketServer","timestamp":"2025-07-24T19:45:11.516Z"}
+{"level":"info","message":"Socket disconnected: sT4WFQYEsndurMgyAAAN (User: 687aa5ff1ef345cae0fe41cd). Reason: client namespace disconnect","service":"SocketServer","timestamp":"2025-07-24T19:47:19.328Z"}
+{"level":"info","message":"Socket disconnected: 9dUJTHS6-HCJvG7NAAAQ (User: 687aa5e71ef345cae0fe41ca). Reason: client namespace disconnect","service":"SocketServer","timestamp":"2025-07-24T19:47:19.330Z"}
+{"level":"info","message":"Socket authenticated: BwG27qk6bDwqUWUeAAAT (User: 687aa5ff1ef345cae0fe41cd)","service":"SocketServer","timestamp":"2025-07-24T19:47:19.338Z"}
+{"level":"info","message":"Socket connected: BwG27qk6bDwqUWUeAAAT (User: 687aa5ff1ef345cae0fe41cd)","service":"SocketServer","timestamp":"2025-07-24T19:47:19.339Z"}
+{"level":"info","message":"Socket authenticated: Y6vvsA3DR6N1IK04AAAU (User: 687aa5e71ef345cae0fe41ca)","service":"SocketServer","timestamp":"2025-07-24T19:47:19.342Z"}
+{"level":"info","message":"Socket connected: Y6vvsA3DR6N1IK04AAAU (User: 687aa5e71ef345cae0fe41ca)","service":"SocketServer","timestamp":"2025-07-24T19:47:19.342Z"}
+{"level":"info","message":"User 687aa5ff1ef345cae0fe41cd joined Socket.IO room 68828cf8d52ebb630e72422d.","service":"SocketServer","timestamp":"2025-07-24T19:47:19.347Z"}
+{"level":"info","message":"User 687aa5e71ef345cae0fe41ca joined Socket.IO room 68828cf8d52ebb630e72422d.","service":"SocketServer","timestamp":"2025-07-24T19:47:19.350Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 68828cf8d52ebb630e72422d is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T19:47:19.353Z"}
+{"level":"debug","message":"Socket BwG27qk6bDwqUWUeAAAT in room 68828cf8d52ebb630e72422d updated to phase: finished","service":"SocketServer","timestamp":"2025-07-24T19:47:19.354Z"}
+{"level":"debug","message":"Socket Y6vvsA3DR6N1IK04AAAU in room 68828cf8d52ebb630e72422d updated to phase: finished","service":"SocketServer","timestamp":"2025-07-24T19:47:19.354Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 68828cf8d52ebb630e72422d is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T19:47:19.356Z"}
+{"level":"debug","message":"Socket BwG27qk6bDwqUWUeAAAT in room 68828cf8d52ebb630e72422d updated to phase: finished","service":"SocketServer","timestamp":"2025-07-24T19:47:19.356Z"}
+{"level":"debug","message":"Socket Y6vvsA3DR6N1IK04AAAU in room 68828cf8d52ebb630e72422d updated to phase: finished","service":"SocketServer","timestamp":"2025-07-24T19:47:19.356Z"}
+{"level":"info","message":"Socket disconnected: BwG27qk6bDwqUWUeAAAT (User: 687aa5ff1ef345cae0fe41cd). Reason: client namespace disconnect","service":"SocketServer","timestamp":"2025-07-24T19:49:17.554Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:49:17.561Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:49:17.566Z"}
+{"level":"info","message":"Token decoded for user ID: 687aa5ff1ef345cae0fe41cd","service":"AuthMiddleware","timestamp":"2025-07-24T19:49:19.686Z"}
+{"level":"info","message":"User Vedant authenticated. Proceeding.","service":"AuthMiddleware","timestamp":"2025-07-24T19:49:19.688Z"}
+{"level":"info","message":"[joinDebate] Called with userId: 687aa5ff1ef345cae0fe41cd, topicId: 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:49:19.692Z"}
+{"level":"info","message":"[joinDebate] Topic \"Should social media be regulated?\" found.","service":"RoomService","timestamp":"2025-07-24T19:49:19.694Z"}
+{"level":"info","message":"[joinDebate] No suitable pending room found for topic 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:49:19.696Z"}
+{"level":"info","message":"[joinDebate] Creating a NEW DebateRoom for topic 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:49:19.696Z"}
+{"level":"info","message":"[joinDebate] NEW DebateRoom created with ID: 68828e3fd52ebb630e724254","service":"RoomService","timestamp":"2025-07-24T19:49:19.699Z"}
+{"level":"info","message":"[joinDebate] User 687aa5ff1ef345cae0fe41cd ADDED to DebateRoom 68828e3fd52ebb630e724254. Current participants: 1","service":"RoomService","timestamp":"2025-07-24T19:49:19.701Z"}
+{"level":"info","message":"[joinDebate] Attempting to create Participation record for userId: 687aa5ff1ef345cae0fe41cd, topicId: 687aa7a8986d7c481f0324fd, roomId: 68828e3fd52ebb630e724254","service":"RoomService","timestamp":"2025-07-24T19:49:19.702Z"}
+{"level":"warn","message":"[joinDebate] Participation record already exists for user 687aa5ff1ef345cae0fe41cd and topic 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:49:19.703Z"}
+{"level":"info","message":"[joinDebate] DebateRoom 68828e3fd52ebb630e724254 added to user 687aa5ff1ef345cae0fe41cd's debate history.","service":"RoomService","timestamp":"2025-07-24T19:49:19.707Z"}
+{"level":"info","message":"[joinDebate] DebateRoom 68828e3fd52ebb630e724254 has 1 participants (not enough to auto-start yet).","service":"RoomService","timestamp":"2025-07-24T19:49:19.707Z"}
+{"level":"info","message":"Socket authenticated: 7V23mhaQDaAPpdMjAAAX (User: 687aa5ff1ef345cae0fe41cd)","service":"SocketServer","timestamp":"2025-07-24T19:49:19.717Z"}
+{"level":"info","message":"Socket connected: 7V23mhaQDaAPpdMjAAAX (User: 687aa5ff1ef345cae0fe41cd)","service":"SocketServer","timestamp":"2025-07-24T19:49:19.718Z"}
+{"level":"info","message":"User 687aa5ff1ef345cae0fe41cd joined Socket.IO room 68828e3fd52ebb630e724254.","service":"SocketServer","timestamp":"2025-07-24T19:49:19.724Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 68828e3fd52ebb630e724254 is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T19:49:19.726Z"}
+{"level":"debug","message":"Socket 7V23mhaQDaAPpdMjAAAX in room 68828e3fd52ebb630e724254 updated to phase: pending","service":"SocketServer","timestamp":"2025-07-24T19:49:19.726Z"}
+{"level":"info","message":"Socket disconnected: Y6vvsA3DR6N1IK04AAAU (User: 687aa5e71ef345cae0fe41ca). Reason: client namespace disconnect","service":"SocketServer","timestamp":"2025-07-24T19:49:36.996Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:49:37.006Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:49:37.011Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:49:39.971Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:49:39.976Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:49:41.244Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:49:41.249Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:49:41.454Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:49:41.459Z"}
+{"level":"info","message":"Socket disconnected: 7V23mhaQDaAPpdMjAAAX (User: 687aa5ff1ef345cae0fe41cd). Reason: client namespace disconnect","service":"SocketServer","timestamp":"2025-07-24T19:49:50.423Z"}
+{"level":"info","message":"[leaveRoom] User 687aa5ff1ef345cae0fe41cd removed from room 68828e3fd52ebb630e724254. Remaining: 0","service":"RoomService","timestamp":"2025-07-24T19:49:50.424Z"}
+{"level":"info","message":"[leaveRoom] Room 68828e3fd52ebb630e724254 CANCELLED due to insufficient participants (0).","service":"RoomService","timestamp":"2025-07-24T19:49:50.428Z"}
+{"level":"warn","message":"No sockets found in room 68828e3fd52ebb630e724254 to update phase to cancelled.","service":"SocketServer","timestamp":"2025-07-24T19:49:50.428Z"}
+{"level":"info","message":"User 687aa5ff1ef345cae0fe41cd left Socket.IO room 68828e3fd52ebb630e724254 via 'leave-room' event.","service":"SocketServer","timestamp":"2025-07-24T19:49:50.428Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:49:50.432Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:49:50.439Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:50:08.610Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:50:08.614Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:50:11.229Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:50:11.237Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:50:13.282Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:50:13.286Z"}
+{"level":"info","message":"Token decoded for user ID: 687aa5ff1ef345cae0fe41cd","service":"AuthMiddleware","timestamp":"2025-07-24T19:50:15.676Z"}
+{"level":"info","message":"User Vedant authenticated. Proceeding.","service":"AuthMiddleware","timestamp":"2025-07-24T19:50:15.678Z"}
+{"level":"info","message":"[joinDebate] Called with userId: 687aa5ff1ef345cae0fe41cd, topicId: 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:50:15.682Z"}
+{"level":"info","message":"[joinDebate] Topic \"Should social media be regulated?\" found.","service":"RoomService","timestamp":"2025-07-24T19:50:15.684Z"}
+{"level":"info","message":"[joinDebate] No suitable pending room found for topic 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:50:15.686Z"}
+{"level":"info","message":"[joinDebate] Creating a NEW DebateRoom for topic 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:50:15.686Z"}
+{"level":"info","message":"[joinDebate] NEW DebateRoom created with ID: 68828e77d52ebb630e724274","service":"RoomService","timestamp":"2025-07-24T19:50:15.689Z"}
+{"level":"info","message":"[joinDebate] User 687aa5ff1ef345cae0fe41cd ADDED to DebateRoom 68828e77d52ebb630e724274. Current participants: 1","service":"RoomService","timestamp":"2025-07-24T19:50:15.691Z"}
+{"level":"info","message":"[joinDebate] Attempting to create Participation record for userId: 687aa5ff1ef345cae0fe41cd, topicId: 687aa7a8986d7c481f0324fd, roomId: 68828e77d52ebb630e724274","service":"RoomService","timestamp":"2025-07-24T19:50:15.692Z"}
+{"level":"warn","message":"[joinDebate] Participation record already exists for user 687aa5ff1ef345cae0fe41cd and topic 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:50:15.694Z"}
+{"level":"info","message":"[joinDebate] DebateRoom 68828e77d52ebb630e724274 added to user 687aa5ff1ef345cae0fe41cd's debate history.","service":"RoomService","timestamp":"2025-07-24T19:50:15.696Z"}
+{"level":"info","message":"[joinDebate] DebateRoom 68828e77d52ebb630e724274 has 1 participants (not enough to auto-start yet).","service":"RoomService","timestamp":"2025-07-24T19:50:15.696Z"}
+{"level":"info","message":"Socket authenticated: 6OnHlyY0jQFLoyGFAAAa (User: 687aa5ff1ef345cae0fe41cd)","service":"SocketServer","timestamp":"2025-07-24T19:50:15.710Z"}
+{"level":"info","message":"Socket connected: 6OnHlyY0jQFLoyGFAAAa (User: 687aa5ff1ef345cae0fe41cd)","service":"SocketServer","timestamp":"2025-07-24T19:50:15.711Z"}
+{"level":"info","message":"User 687aa5ff1ef345cae0fe41cd joined Socket.IO room 68828e77d52ebb630e724274.","service":"SocketServer","timestamp":"2025-07-24T19:50:15.717Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 68828e77d52ebb630e724274 is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T19:50:15.720Z"}
+{"level":"debug","message":"Socket 6OnHlyY0jQFLoyGFAAAa in room 68828e77d52ebb630e724274 updated to phase: pending","service":"SocketServer","timestamp":"2025-07-24T19:50:15.720Z"}
+{"level":"info","message":"Token decoded for user ID: 687aa5e71ef345cae0fe41ca","service":"AuthMiddleware","timestamp":"2025-07-24T19:50:20.167Z"}
+{"level":"info","message":"User Pranav authenticated. Proceeding.","service":"AuthMiddleware","timestamp":"2025-07-24T19:50:20.168Z"}
+{"level":"info","message":"[joinDebate] Called with userId: 687aa5e71ef345cae0fe41ca, topicId: 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:50:20.175Z"}
+{"level":"info","message":"[joinDebate] Topic \"Should social media be regulated?\" found.","service":"RoomService","timestamp":"2025-07-24T19:50:20.177Z"}
+{"level":"info","message":"[joinDebate] Found existing pending room: 68828e77d52ebb630e724274. Participants: 1/6","service":"RoomService","timestamp":"2025-07-24T19:50:20.179Z"}
+{"level":"info","message":"[joinDebate] User 687aa5e71ef345cae0fe41ca ADDED to DebateRoom 68828e77d52ebb630e724274. Current participants: 2","service":"RoomService","timestamp":"2025-07-24T19:50:20.181Z"}
+{"level":"info","message":"[joinDebate] Attempting to create Participation record for userId: 687aa5e71ef345cae0fe41ca, topicId: 687aa7a8986d7c481f0324fd, roomId: 68828e77d52ebb630e724274","service":"RoomService","timestamp":"2025-07-24T19:50:20.182Z"}
+{"level":"warn","message":"[joinDebate] Participation record already exists for user 687aa5e71ef345cae0fe41ca and topic 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:50:20.185Z"}
+{"level":"info","message":"[joinDebate] DebateRoom 68828e77d52ebb630e724274 added to user 687aa5e71ef345cae0fe41ca's debate history.","service":"RoomService","timestamp":"2025-07-24T19:50:20.188Z"}
+{"level":"info","message":"[joinDebate] DebateRoom 68828e77d52ebb630e724274 has 2 participants (enough to start). Calling autoStartDebate.","service":"RoomService","timestamp":"2025-07-24T19:50:20.188Z"}
+{"level":"info","message":"[autoStartDebate] Setting timeout for room 68828e77d52ebb630e724274 to start in 5 seconds.","service":"RoomService","timestamp":"2025-07-24T19:50:20.189Z"}
+{"level":"info","message":"Socket authenticated: XCmgBZRLy8UDvx9yAAAd (User: 687aa5e71ef345cae0fe41ca)","service":"SocketServer","timestamp":"2025-07-24T19:50:20.211Z"}
+{"level":"info","message":"Socket connected: XCmgBZRLy8UDvx9yAAAd (User: 687aa5e71ef345cae0fe41ca)","service":"SocketServer","timestamp":"2025-07-24T19:50:20.212Z"}
+{"level":"info","message":"User 687aa5e71ef345cae0fe41ca joined Socket.IO room 68828e77d52ebb630e724274.","service":"SocketServer","timestamp":"2025-07-24T19:50:20.218Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 68828e77d52ebb630e724274 is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T19:50:20.221Z"}
+{"level":"debug","message":"Socket 6OnHlyY0jQFLoyGFAAAa in room 68828e77d52ebb630e724274 updated to phase: pending","service":"SocketServer","timestamp":"2025-07-24T19:50:20.222Z"}
+{"level":"debug","message":"Socket XCmgBZRLy8UDvx9yAAAd in room 68828e77d52ebb630e724274 updated to phase: pending","service":"SocketServer","timestamp":"2025-07-24T19:50:20.222Z"}
+{"level":"info","message":"[autoStartDebate] Room 68828e77d52ebb630e724274 AUTO-STARTED with 2 participants.","service":"RoomService","timestamp":"2025-07-24T19:50:25.206Z"}
+{"level":"info","message":"[startDebateTimers] Setting up timers for room 68828e77d52ebb630e724274: CAPTURE_MS: 15000","service":"SocketServer","timestamp":"2025-07-24T19:50:25.206Z"}
+{"level":"info","message":"[startDebateTimers] Room 68828e77d52ebb630e724274: Capture window OPEN.","service":"SocketServer","timestamp":"2025-07-24T19:50:25.208Z"}
+{"level":"warn","message":"No sockets found in room 68828e77d52ebb630e724274 to update phase to debate-start.","service":"SocketServer","timestamp":"2025-07-24T19:50:25.209Z"}
+{"level":"info","message":"[finalizeDebate] Finalizing room 68828e77d52ebb630e724274: Fetching messages for scoring.","service":"SocketServer","timestamp":"2025-07-24T19:50:40.212Z"}
+{"level":"info","message":"[finalizeDebate] Sending transcript for room 68828e77d52ebb630e724274 to AI for scoring.","service":"SocketServer","timestamp":"2025-07-24T19:50:40.215Z"}
+{"email":"apurv@gmail.com","level":"info","message":"Login attempt","service":"AuthController","timestamp":"2025-07-24T19:51:06.452Z"}
+{"level":"info","message":"User logged in successfully","service":"AuthController","timestamp":"2025-07-24T19:51:06.526Z","userId":"687aa60d1ef345cae0fe41d0"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:51:06.541Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:51:06.545Z"}
+{"level":"info","message":"Token decoded for user ID: 687aa60d1ef345cae0fe41d0","service":"AuthMiddleware","timestamp":"2025-07-24T19:51:08.184Z"}
+{"level":"info","message":"User Apurv authenticated. Proceeding.","service":"AuthMiddleware","timestamp":"2025-07-24T19:51:08.185Z"}
+{"level":"info","message":"[joinDebate] Called with userId: 687aa60d1ef345cae0fe41d0, topicId: 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:51:08.189Z"}
+{"level":"info","message":"[joinDebate] Topic \"Should social media be regulated?\" found.","service":"RoomService","timestamp":"2025-07-24T19:51:08.191Z"}
+{"level":"info","message":"[joinDebate] No suitable pending room found for topic 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:51:08.193Z"}
+{"level":"info","message":"[joinDebate] Creating a NEW DebateRoom for topic 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:51:08.194Z"}
+{"level":"info","message":"[joinDebate] NEW DebateRoom created with ID: 68828eacd52ebb630e724294","service":"RoomService","timestamp":"2025-07-24T19:51:08.197Z"}
+{"level":"info","message":"[joinDebate] User 687aa60d1ef345cae0fe41d0 ADDED to DebateRoom 68828eacd52ebb630e724294. Current participants: 1","service":"RoomService","timestamp":"2025-07-24T19:51:08.199Z"}
+{"level":"info","message":"[joinDebate] Attempting to create Participation record for userId: 687aa60d1ef345cae0fe41d0, topicId: 687aa7a8986d7c481f0324fd, roomId: 68828eacd52ebb630e724294","service":"RoomService","timestamp":"2025-07-24T19:51:08.199Z"}
+{"level":"info","message":"[joinDebate] Participation record created successfully.","service":"RoomService","timestamp":"2025-07-24T19:51:08.200Z"}
+{"level":"info","message":"[joinDebate] DebateRoom 68828eacd52ebb630e724294 added to user 687aa60d1ef345cae0fe41d0's debate history.","service":"RoomService","timestamp":"2025-07-24T19:51:08.203Z"}
+{"level":"info","message":"[joinDebate] DebateRoom 68828eacd52ebb630e724294 has 1 participants (not enough to auto-start yet).","service":"RoomService","timestamp":"2025-07-24T19:51:08.204Z"}
+{"level":"info","message":"Socket authenticated: WFumdUBKQKPrkb26AAAg (User: 687aa60d1ef345cae0fe41d0)","service":"SocketServer","timestamp":"2025-07-24T19:51:08.218Z"}
+{"level":"info","message":"Socket connected: WFumdUBKQKPrkb26AAAg (User: 687aa60d1ef345cae0fe41d0)","service":"SocketServer","timestamp":"2025-07-24T19:51:08.219Z"}
+{"level":"info","message":"User 687aa60d1ef345cae0fe41d0 joined Socket.IO room 68828eacd52ebb630e724294.","service":"SocketServer","timestamp":"2025-07-24T19:51:08.226Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 68828eacd52ebb630e724294 is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T19:51:08.228Z"}
+{"level":"debug","message":"Socket WFumdUBKQKPrkb26AAAg in room 68828eacd52ebb630e724294 updated to phase: pending","service":"SocketServer","timestamp":"2025-07-24T19:51:08.228Z"}
+{"level":"info","message":"[leaveRoom] User 687aa5ff1ef345cae0fe41cd removed from room 68828e77d52ebb630e724274. Remaining: 1","service":"RoomService","timestamp":"2025-07-24T19:51:14.832Z"}
+{"level":"info","message":"User 687aa5ff1ef345cae0fe41cd left Socket.IO room 68828e77d52ebb630e724274 via 'leave-room' event.","service":"SocketServer","timestamp":"2025-07-24T19:51:14.833Z"}
+{"level":"info","message":"Socket disconnected: 6OnHlyY0jQFLoyGFAAAa (User: 687aa5ff1ef345cae0fe41cd). Reason: client namespace disconnect","service":"SocketServer","timestamp":"2025-07-24T19:51:14.836Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:51:14.843Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:51:14.848Z"}
+{"level":"info","message":"Socket disconnected: WFumdUBKQKPrkb26AAAg (User: 687aa60d1ef345cae0fe41d0). Reason: client namespace disconnect","service":"SocketServer","timestamp":"2025-07-24T19:51:19.231Z"}
+{"level":"info","message":"[leaveRoom] User 687aa60d1ef345cae0fe41d0 removed from room 68828eacd52ebb630e724294. Remaining: 0","service":"RoomService","timestamp":"2025-07-24T19:51:19.232Z"}
+{"level":"info","message":"[leaveRoom] Room 68828eacd52ebb630e724294 CANCELLED due to insufficient participants (0).","service":"RoomService","timestamp":"2025-07-24T19:51:19.234Z"}
+{"level":"warn","message":"No sockets found in room 68828eacd52ebb630e724294 to update phase to cancelled.","service":"SocketServer","timestamp":"2025-07-24T19:51:19.235Z"}
+{"level":"info","message":"User 687aa60d1ef345cae0fe41d0 left Socket.IO room 68828eacd52ebb630e724294 via 'leave-room' event.","service":"SocketServer","timestamp":"2025-07-24T19:51:19.236Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:51:19.244Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:51:19.247Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:51:28.313Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:51:28.317Z"}
+{"level":"error","message":"[finalizeDebate] Error scoring debate 68828e77d52ebb630e724274 with AI: \"[object Object]\" is not valid JSON \"[object Object]\" is not valid JSON","service":"SocketServer","stack":"SyntaxError: \"[object Object]\" is not valid JSON\n    at JSON.parse (<anonymous>)\n    at E:\\Debatron\\Backend\\utils\\aiClient.js:26:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async finalizeDebate (E:\\Debatron\\Backend\\socket.js:201:24)","timestamp":"2025-07-24T19:51:30.893Z"}
+{"level":"info","message":"[finalizeDebate] Room 68828e77d52ebb630e724274 finished.","service":"SocketServer","timestamp":"2025-07-24T19:51:30.893Z"}
+{"level":"warn","message":"No sockets found in room 68828e77d52ebb630e724274 to update phase to finished.","service":"SocketServer","timestamp":"2025-07-24T19:51:30.893Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:51:32.482Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:51:32.485Z"}
+{"level":"info","message":"[leaveRoom] User 687aa5e71ef345cae0fe41ca removed from room 68828e77d52ebb630e724274. Remaining: 0","service":"RoomService","timestamp":"2025-07-24T19:51:43.630Z"}
+{"level":"info","message":"Socket disconnected: XCmgBZRLy8UDvx9yAAAd (User: 687aa5e71ef345cae0fe41ca). Reason: client namespace disconnect","service":"SocketServer","timestamp":"2025-07-24T19:51:43.634Z"}
+{"level":"info","message":"[leaveRoom] Room 68828e77d52ebb630e724274 is now empty and deleted.","service":"RoomService","timestamp":"2025-07-24T19:51:43.635Z"}
+{"level":"warn","message":"No sockets found in room 68828e77d52ebb630e724274 to update phase to closed.","service":"SocketServer","timestamp":"2025-07-24T19:51:43.635Z"}
+{"level":"info","message":"User 687aa5e71ef345cae0fe41ca left Socket.IO room 68828e77d52ebb630e724274 via 'leave-room' event.","service":"SocketServer","timestamp":"2025-07-24T19:51:43.635Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:51:43.645Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:51:43.650Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:51:46.753Z"}
+{"count":3,"level":"info","message":"All topics retrieved successfully","service":"TopicController","timestamp":"2025-07-24T19:51:46.758Z"}
+{"level":"info","message":"Token decoded for user ID: 687aa5e71ef345cae0fe41ca","service":"AuthMiddleware","timestamp":"2025-07-24T19:51:51.390Z"}
+{"level":"info","message":"User Pranav authenticated. Proceeding.","service":"AuthMiddleware","timestamp":"2025-07-24T19:51:51.392Z"}
+{"level":"info","message":"[joinDebate] Called with userId: 687aa5e71ef345cae0fe41ca, topicId: 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:51:51.397Z"}
+{"level":"info","message":"[joinDebate] Topic \"Should social media be regulated?\" found.","service":"RoomService","timestamp":"2025-07-24T19:51:51.399Z"}
+{"level":"info","message":"[joinDebate] No suitable pending room found for topic 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:51:51.402Z"}
+{"level":"info","message":"[joinDebate] Creating a NEW DebateRoom for topic 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:51:51.404Z"}
+{"level":"info","message":"[joinDebate] NEW DebateRoom created with ID: 68828ed7d52ebb630e7242b6","service":"RoomService","timestamp":"2025-07-24T19:51:51.408Z"}
+{"level":"info","message":"[joinDebate] User 687aa5e71ef345cae0fe41ca ADDED to DebateRoom 68828ed7d52ebb630e7242b6. Current participants: 1","service":"RoomService","timestamp":"2025-07-24T19:51:51.412Z"}
+{"level":"info","message":"[joinDebate] Attempting to create Participation record for userId: 687aa5e71ef345cae0fe41ca, topicId: 687aa7a8986d7c481f0324fd, roomId: 68828ed7d52ebb630e7242b6","service":"RoomService","timestamp":"2025-07-24T19:51:51.413Z"}
+{"level":"warn","message":"[joinDebate] Participation record already exists for user 687aa5e71ef345cae0fe41ca and topic 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:51:51.420Z"}
+{"level":"info","message":"[joinDebate] DebateRoom 68828ed7d52ebb630e7242b6 added to user 687aa5e71ef345cae0fe41ca's debate history.","service":"RoomService","timestamp":"2025-07-24T19:51:51.426Z"}
+{"level":"info","message":"[joinDebate] DebateRoom 68828ed7d52ebb630e7242b6 has 1 participants (not enough to auto-start yet).","service":"RoomService","timestamp":"2025-07-24T19:51:51.429Z"}
+{"level":"info","message":"Socket authenticated: 8si0Gd1nrOj90XIXAAAj (User: 687aa5e71ef345cae0fe41ca)","service":"SocketServer","timestamp":"2025-07-24T19:51:51.453Z"}
+{"level":"info","message":"Socket connected: 8si0Gd1nrOj90XIXAAAj (User: 687aa5e71ef345cae0fe41ca)","service":"SocketServer","timestamp":"2025-07-24T19:51:51.454Z"}
+{"level":"info","message":"User 687aa5e71ef345cae0fe41ca joined Socket.IO room 68828ed7d52ebb630e7242b6.","service":"SocketServer","timestamp":"2025-07-24T19:51:51.460Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 68828ed7d52ebb630e7242b6 is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T19:51:51.464Z"}
+{"level":"debug","message":"Socket 8si0Gd1nrOj90XIXAAAj in room 68828ed7d52ebb630e7242b6 updated to phase: pending","service":"SocketServer","timestamp":"2025-07-24T19:51:51.465Z"}
+{"level":"info","message":"Token decoded for user ID: 687aa5ff1ef345cae0fe41cd","service":"AuthMiddleware","timestamp":"2025-07-24T19:51:56.073Z"}
+{"level":"info","message":"User Vedant authenticated. Proceeding.","service":"AuthMiddleware","timestamp":"2025-07-24T19:51:56.074Z"}
+{"level":"info","message":"[joinDebate] Called with userId: 687aa5ff1ef345cae0fe41cd, topicId: 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:51:56.079Z"}
+{"level":"info","message":"[joinDebate] Topic \"Should social media be regulated?\" found.","service":"RoomService","timestamp":"2025-07-24T19:51:56.081Z"}
+{"level":"info","message":"[joinDebate] Found existing pending room: 68828ed7d52ebb630e7242b6. Participants: 1/6","service":"RoomService","timestamp":"2025-07-24T19:51:56.082Z"}
+{"level":"info","message":"[joinDebate] User 687aa5ff1ef345cae0fe41cd ADDED to DebateRoom 68828ed7d52ebb630e7242b6. Current participants: 2","service":"RoomService","timestamp":"2025-07-24T19:51:56.084Z"}
+{"level":"info","message":"[joinDebate] Attempting to create Participation record for userId: 687aa5ff1ef345cae0fe41cd, topicId: 687aa7a8986d7c481f0324fd, roomId: 68828ed7d52ebb630e7242b6","service":"RoomService","timestamp":"2025-07-24T19:51:56.085Z"}
+{"level":"warn","message":"[joinDebate] Participation record already exists for user 687aa5ff1ef345cae0fe41cd and topic 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:51:56.087Z"}
+{"level":"info","message":"[joinDebate] DebateRoom 68828ed7d52ebb630e7242b6 added to user 687aa5ff1ef345cae0fe41cd's debate history.","service":"RoomService","timestamp":"2025-07-24T19:51:56.090Z"}
+{"level":"info","message":"[joinDebate] DebateRoom 68828ed7d52ebb630e7242b6 has 2 participants (enough to start). Calling autoStartDebate.","service":"RoomService","timestamp":"2025-07-24T19:51:56.091Z"}
+{"level":"info","message":"[autoStartDebate] Setting timeout for room 68828ed7d52ebb630e7242b6 to start in 5 seconds.","service":"RoomService","timestamp":"2025-07-24T19:51:56.091Z"}
+{"level":"info","message":"Socket authenticated: vZFTFze2MPPqLc79AAAm (User: 687aa5ff1ef345cae0fe41cd)","service":"SocketServer","timestamp":"2025-07-24T19:51:56.102Z"}
+{"level":"info","message":"Socket connected: vZFTFze2MPPqLc79AAAm (User: 687aa5ff1ef345cae0fe41cd)","service":"SocketServer","timestamp":"2025-07-24T19:51:56.103Z"}
+{"level":"info","message":"User 687aa5ff1ef345cae0fe41cd joined Socket.IO room 68828ed7d52ebb630e7242b6.","service":"SocketServer","timestamp":"2025-07-24T19:51:56.108Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 68828ed7d52ebb630e7242b6 is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T19:51:56.111Z"}
+{"level":"debug","message":"Socket 8si0Gd1nrOj90XIXAAAj in room 68828ed7d52ebb630e7242b6 updated to phase: pending","service":"SocketServer","timestamp":"2025-07-24T19:51:56.112Z"}
+{"level":"debug","message":"Socket vZFTFze2MPPqLc79AAAm in room 68828ed7d52ebb630e7242b6 updated to phase: pending","service":"SocketServer","timestamp":"2025-07-24T19:51:56.112Z"}
+{"level":"info","message":"Token decoded for user ID: 687aa60d1ef345cae0fe41d0","service":"AuthMiddleware","timestamp":"2025-07-24T19:52:00.999Z"}
+{"level":"info","message":"User Apurv authenticated. Proceeding.","service":"AuthMiddleware","timestamp":"2025-07-24T19:52:01.000Z"}
+{"level":"info","message":"[joinDebate] Called with userId: 687aa60d1ef345cae0fe41d0, topicId: 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:52:01.006Z"}
+{"level":"info","message":"[joinDebate] Topic \"Should social media be regulated?\" found.","service":"RoomService","timestamp":"2025-07-24T19:52:01.008Z"}
+{"level":"info","message":"[joinDebate] Found existing pending room: 68828ed7d52ebb630e7242b6. Participants: 2/6","service":"RoomService","timestamp":"2025-07-24T19:52:01.011Z"}
+{"level":"info","message":"[joinDebate] User 687aa60d1ef345cae0fe41d0 ADDED to DebateRoom 68828ed7d52ebb630e7242b6. Current participants: 3","service":"RoomService","timestamp":"2025-07-24T19:52:01.013Z"}
+{"level":"info","message":"[joinDebate] Attempting to create Participation record for userId: 687aa60d1ef345cae0fe41d0, topicId: 687aa7a8986d7c481f0324fd, roomId: 68828ed7d52ebb630e7242b6","service":"RoomService","timestamp":"2025-07-24T19:52:01.013Z"}
+{"level":"warn","message":"[joinDebate] Participation record already exists for user 687aa60d1ef345cae0fe41d0 and topic 687aa7a8986d7c481f0324fd.","service":"RoomService","timestamp":"2025-07-24T19:52:01.016Z"}
+{"level":"info","message":"[joinDebate] DebateRoom 68828ed7d52ebb630e7242b6 added to user 687aa60d1ef345cae0fe41d0's debate history.","service":"RoomService","timestamp":"2025-07-24T19:52:01.020Z"}
+{"level":"info","message":"[joinDebate] DebateRoom 68828ed7d52ebb630e7242b6 has 3 participants (enough to start). Calling autoStartDebate.","service":"RoomService","timestamp":"2025-07-24T19:52:01.021Z"}
+{"level":"info","message":"[autoStartDebate] Setting timeout for room 68828ed7d52ebb630e7242b6 to start in 5 seconds.","service":"RoomService","timestamp":"2025-07-24T19:52:01.021Z"}
+{"level":"info","message":"Socket authenticated: xeYSUGjbPckAlNyWAAAp (User: 687aa60d1ef345cae0fe41d0)","service":"SocketServer","timestamp":"2025-07-24T19:52:01.036Z"}
+{"level":"info","message":"Socket connected: xeYSUGjbPckAlNyWAAAp (User: 687aa60d1ef345cae0fe41d0)","service":"SocketServer","timestamp":"2025-07-24T19:52:01.037Z"}
+{"level":"info","message":"User 687aa60d1ef345cae0fe41d0 joined Socket.IO room 68828ed7d52ebb630e7242b6.","service":"SocketServer","timestamp":"2025-07-24T19:52:01.042Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 68828ed7d52ebb630e7242b6 is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T19:52:01.045Z"}
+{"level":"debug","message":"Socket 8si0Gd1nrOj90XIXAAAj in room 68828ed7d52ebb630e7242b6 updated to phase: pending","service":"SocketServer","timestamp":"2025-07-24T19:52:01.045Z"}
+{"level":"debug","message":"Socket vZFTFze2MPPqLc79AAAm in room 68828ed7d52ebb630e7242b6 updated to phase: pending","service":"SocketServer","timestamp":"2025-07-24T19:52:01.046Z"}
+{"level":"debug","message":"Socket xeYSUGjbPckAlNyWAAAp in room 68828ed7d52ebb630e7242b6 updated to phase: pending","service":"SocketServer","timestamp":"2025-07-24T19:52:01.046Z"}
+{"level":"info","message":"[autoStartDebate] Room 68828ed7d52ebb630e7242b6 AUTO-STARTED with 3 participants.","service":"RoomService","timestamp":"2025-07-24T19:52:01.104Z"}
+{"level":"info","message":"[startDebateTimers] Setting up timers for room 68828ed7d52ebb630e7242b6: CAPTURE_MS: 15000","service":"SocketServer","timestamp":"2025-07-24T19:52:01.104Z"}
+{"level":"info","message":"[startDebateTimers] Room 68828ed7d52ebb630e7242b6: Capture window OPEN.","service":"SocketServer","timestamp":"2025-07-24T19:52:01.119Z"}
+{"level":"warn","message":"No sockets found in room 68828ed7d52ebb630e7242b6 to update phase to debate-start.","service":"SocketServer","timestamp":"2025-07-24T19:52:01.119Z"}
+{"level":"info","message":"[autoStartDebate] Room 68828ed7d52ebb630e7242b6 is no longer pending (ongoing). Not auto-starting or cancelling.","service":"RoomService","timestamp":"2025-07-24T19:52:06.037Z"}
+{"level":"info","message":"[finalizeDebate] Finalizing room 68828ed7d52ebb630e7242b6: Fetching messages for scoring.","service":"SocketServer","timestamp":"2025-07-24T19:52:16.125Z"}
+{"level":"info","message":"[finalizeDebate] Sending transcript for room 68828ed7d52ebb630e7242b6 to AI for scoring.","service":"SocketServer","timestamp":"2025-07-24T19:52:16.126Z"}
+{"level":"error","message":"[finalizeDebate] Error scoring debate 68828ed7d52ebb630e7242b6 with AI: \"[object Object]\" is not valid JSON \"[object Object]\" is not valid JSON","service":"SocketServer","stack":"SyntaxError: \"[object Object]\" is not valid JSON\n    at JSON.parse (<anonymous>)\n    at E:\\Debatron\\Backend\\utils\\aiClient.js:26:17\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async finalizeDebate (E:\\Debatron\\Backend\\socket.js:201:24)","timestamp":"2025-07-24T19:52:39.706Z"}
+{"level":"info","message":"[finalizeDebate] Room 68828ed7d52ebb630e7242b6 finished.","service":"SocketServer","timestamp":"2025-07-24T19:52:39.706Z"}
+{"level":"warn","message":"No sockets found in room 68828ed7d52ebb630e7242b6 to update phase to finished.","service":"SocketServer","timestamp":"2025-07-24T19:52:39.706Z"}
+{"level":"info","message":"Socket disconnected: xeYSUGjbPckAlNyWAAAp (User: 687aa60d1ef345cae0fe41d0). Reason: transport close","service":"SocketServer","timestamp":"2025-07-24T19:56:27.868Z"}
+{"level":"info","message":"Socket authenticated: QEEWtc2Ork-tzimTAAAs (User: 687aa60d1ef345cae0fe41d0)","service":"SocketServer","timestamp":"2025-07-24T19:56:27.968Z"}
+{"level":"info","message":"Socket connected: QEEWtc2Ork-tzimTAAAs (User: 687aa60d1ef345cae0fe41d0)","service":"SocketServer","timestamp":"2025-07-24T19:56:27.968Z"}
+{"level":"info","message":"User 687aa60d1ef345cae0fe41d0 joined Socket.IO room 68828ed7d52ebb630e7242b6.","service":"SocketServer","timestamp":"2025-07-24T19:56:27.973Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 68828ed7d52ebb630e7242b6 is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T19:56:27.976Z"}
+{"level":"debug","message":"Socket 8si0Gd1nrOj90XIXAAAj in room 68828ed7d52ebb630e7242b6 updated to phase: finished","service":"SocketServer","timestamp":"2025-07-24T19:56:27.976Z"}
+{"level":"debug","message":"Socket vZFTFze2MPPqLc79AAAm in room 68828ed7d52ebb630e7242b6 updated to phase: finished","service":"SocketServer","timestamp":"2025-07-24T19:56:27.977Z"}
+{"level":"debug","message":"Socket QEEWtc2Ork-tzimTAAAs in room 68828ed7d52ebb630e7242b6 updated to phase: finished","service":"SocketServer","timestamp":"2025-07-24T19:56:27.977Z"}
+{"level":"info","message":"Socket disconnected: QEEWtc2Ork-tzimTAAAs (User: 687aa60d1ef345cae0fe41d0). Reason: transport close","service":"SocketServer","timestamp":"2025-07-24T20:01:52.843Z"}
+{"level":"info","message":"Socket disconnected: vZFTFze2MPPqLc79AAAm (User: 687aa5ff1ef345cae0fe41cd). Reason: transport close","service":"SocketServer","timestamp":"2025-07-24T20:01:52.848Z"}
+{"level":"info","message":"Socket disconnected: 8si0Gd1nrOj90XIXAAAj (User: 687aa5e71ef345cae0fe41ca). Reason: transport close","service":"SocketServer","timestamp":"2025-07-24T20:01:53.819Z"}
+{"level":"info","message":"Socket authenticated: 9WeJFvuTV17WHvzsAAAv (User: 687aa5ff1ef345cae0fe41cd)","service":"SocketServer","timestamp":"2025-07-24T20:01:54.255Z"}
+{"level":"info","message":"Socket connected: 9WeJFvuTV17WHvzsAAAv (User: 687aa5ff1ef345cae0fe41cd)","service":"SocketServer","timestamp":"2025-07-24T20:01:54.255Z"}
+{"level":"info","message":"User 687aa5ff1ef345cae0fe41cd joined Socket.IO room 68828ed7d52ebb630e7242b6.","service":"SocketServer","timestamp":"2025-07-24T20:01:54.263Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 68828ed7d52ebb630e7242b6 is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T20:01:54.265Z"}
+{"level":"debug","message":"Socket 9WeJFvuTV17WHvzsAAAv in room 68828ed7d52ebb630e7242b6 updated to phase: finished","service":"SocketServer","timestamp":"2025-07-24T20:01:54.266Z"}
+{"level":"info","message":"Socket authenticated: eCHrl_SnUdAp7kKXAAAy (User: 687aa60d1ef345cae0fe41d0)","service":"SocketServer","timestamp":"2025-07-24T20:01:54.324Z"}
+{"level":"info","message":"Socket connected: eCHrl_SnUdAp7kKXAAAy (User: 687aa60d1ef345cae0fe41d0)","service":"SocketServer","timestamp":"2025-07-24T20:01:54.324Z"}
+{"level":"info","message":"User 687aa60d1ef345cae0fe41d0 joined Socket.IO room 68828ed7d52ebb630e7242b6.","service":"SocketServer","timestamp":"2025-07-24T20:01:54.330Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 68828ed7d52ebb630e7242b6 is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T20:01:54.333Z"}
+{"level":"debug","message":"Socket 9WeJFvuTV17WHvzsAAAv in room 68828ed7d52ebb630e7242b6 updated to phase: finished","service":"SocketServer","timestamp":"2025-07-24T20:01:54.333Z"}
+{"level":"debug","message":"Socket eCHrl_SnUdAp7kKXAAAy in room 68828ed7d52ebb630e7242b6 updated to phase: finished","service":"SocketServer","timestamp":"2025-07-24T20:01:54.334Z"}
+{"level":"info","message":"Socket authenticated: SXrhXO5swIf6dppyAAA1 (User: 687aa5e71ef345cae0fe41ca)","service":"SocketServer","timestamp":"2025-07-24T20:01:54.371Z"}
+{"level":"info","message":"Socket connected: SXrhXO5swIf6dppyAAA1 (User: 687aa5e71ef345cae0fe41ca)","service":"SocketServer","timestamp":"2025-07-24T20:01:54.372Z"}
+{"level":"info","message":"User 687aa5e71ef345cae0fe41ca joined Socket.IO room 68828ed7d52ebb630e7242b6.","service":"SocketServer","timestamp":"2025-07-24T20:01:54.379Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 68828ed7d52ebb630e7242b6 is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T20:01:54.382Z"}
+{"level":"debug","message":"Socket 9WeJFvuTV17WHvzsAAAv in room 68828ed7d52ebb630e7242b6 updated to phase: finished","service":"SocketServer","timestamp":"2025-07-24T20:01:54.383Z"}
+{"level":"debug","message":"Socket eCHrl_SnUdAp7kKXAAAy in room 68828ed7d52ebb630e7242b6 updated to phase: finished","service":"SocketServer","timestamp":"2025-07-24T20:01:54.383Z"}
+{"level":"debug","message":"Socket SXrhXO5swIf6dppyAAA1 in room 68828ed7d52ebb630e7242b6 updated to phase: finished","service":"SocketServer","timestamp":"2025-07-24T20:01:54.383Z"}
+{"level":"info","message":"Socket disconnected: SXrhXO5swIf6dppyAAA1 (User: 687aa5e71ef345cae0fe41ca). Reason: transport close","service":"SocketServer","timestamp":"2025-07-24T20:02:56.152Z"}
+{"level":"info","message":"Socket disconnected: 9WeJFvuTV17WHvzsAAAv (User: 687aa5ff1ef345cae0fe41cd). Reason: transport close","service":"SocketServer","timestamp":"2025-07-24T20:02:56.153Z"}
+{"level":"info","message":"Socket disconnected: eCHrl_SnUdAp7kKXAAAy (User: 687aa60d1ef345cae0fe41d0). Reason: transport close","service":"SocketServer","timestamp":"2025-07-24T20:02:56.154Z"}
+{"level":"info","message":"Socket authenticated: OUlONsKr5k46j6U3AAA3 (User: 687aa5ff1ef345cae0fe41cd)","service":"SocketServer","timestamp":"2025-07-24T20:06:32.933Z"}
+{"level":"info","message":"Socket connected: OUlONsKr5k46j6U3AAA3 (User: 687aa5ff1ef345cae0fe41cd)","service":"SocketServer","timestamp":"2025-07-24T20:06:32.933Z"}
+{"level":"info","message":"User 687aa5ff1ef345cae0fe41cd joined Socket.IO room 68828ed7d52ebb630e7242b6.","service":"SocketServer","timestamp":"2025-07-24T20:06:32.943Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 68828ed7d52ebb630e7242b6 is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T20:06:32.945Z"}
+{"level":"debug","message":"Socket OUlONsKr5k46j6U3AAA3 in room 68828ed7d52ebb630e7242b6 updated to phase: finished","service":"SocketServer","timestamp":"2025-07-24T20:06:32.946Z"}
+{"level":"info","message":"Socket authenticated: AXD-sDf5SShsjUKIAAA6 (User: 687aa5e71ef345cae0fe41ca)","service":"SocketServer","timestamp":"2025-07-24T20:06:33.383Z"}
+{"level":"info","message":"Socket connected: AXD-sDf5SShsjUKIAAA6 (User: 687aa5e71ef345cae0fe41ca)","service":"SocketServer","timestamp":"2025-07-24T20:06:33.383Z"}
+{"level":"info","message":"Socket authenticated: eY-o2uufb9yJZ3pBAAA7 (User: 687aa60d1ef345cae0fe41d0)","service":"SocketServer","timestamp":"2025-07-24T20:06:33.385Z"}
+{"level":"info","message":"Socket connected: eY-o2uufb9yJZ3pBAAA7 (User: 687aa60d1ef345cae0fe41d0)","service":"SocketServer","timestamp":"2025-07-24T20:06:33.386Z"}
+{"level":"info","message":"User 687aa5e71ef345cae0fe41ca joined Socket.IO room 68828ed7d52ebb630e7242b6.","service":"SocketServer","timestamp":"2025-07-24T20:06:33.393Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 68828ed7d52ebb630e7242b6 is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T20:06:33.396Z"}
+{"level":"debug","message":"Socket OUlONsKr5k46j6U3AAA3 in room 68828ed7d52ebb630e7242b6 updated to phase: finished","service":"SocketServer","timestamp":"2025-07-24T20:06:33.397Z"}
+{"level":"debug","message":"Socket AXD-sDf5SShsjUKIAAA6 in room 68828ed7d52ebb630e7242b6 updated to phase: finished","service":"SocketServer","timestamp":"2025-07-24T20:06:33.397Z"}
+{"level":"info","message":"User 687aa60d1ef345cae0fe41d0 joined Socket.IO room 68828ed7d52ebb630e7242b6.","service":"SocketServer","timestamp":"2025-07-24T20:06:33.398Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 68828ed7d52ebb630e7242b6 is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T20:06:33.402Z"}
+{"level":"debug","message":"Socket OUlONsKr5k46j6U3AAA3 in room 68828ed7d52ebb630e7242b6 updated to phase: finished","service":"SocketServer","timestamp":"2025-07-24T20:06:33.403Z"}
+{"level":"debug","message":"Socket AXD-sDf5SShsjUKIAAA6 in room 68828ed7d52ebb630e7242b6 updated to phase: finished","service":"SocketServer","timestamp":"2025-07-24T20:06:33.404Z"}
+{"level":"debug","message":"Socket eY-o2uufb9yJZ3pBAAA7 in room 68828ed7d52ebb630e7242b6 updated to phase: finished","service":"SocketServer","timestamp":"2025-07-24T20:06:33.405Z"}
+{"level":"info","message":"Socket disconnected: AXD-sDf5SShsjUKIAAA6 (User: 687aa5e71ef345cae0fe41ca). Reason: transport close","service":"SocketServer","timestamp":"2025-07-24T20:06:35.321Z"}
+{"level":"info","message":"Socket disconnected: eY-o2uufb9yJZ3pBAAA7 (User: 687aa60d1ef345cae0fe41d0). Reason: transport close","service":"SocketServer","timestamp":"2025-07-24T20:06:35.414Z"}
+{"level":"info","message":"Socket authenticated: uu0WEM4cuLeYoPq0AAA- (User: 687aa60d1ef345cae0fe41d0)","service":"SocketServer","timestamp":"2025-07-24T20:06:35.477Z"}
+{"level":"info","message":"Socket connected: uu0WEM4cuLeYoPq0AAA- (User: 687aa60d1ef345cae0fe41d0)","service":"SocketServer","timestamp":"2025-07-24T20:06:35.477Z"}
+{"level":"info","message":"User 687aa60d1ef345cae0fe41d0 joined Socket.IO room 68828ed7d52ebb630e7242b6.","service":"SocketServer","timestamp":"2025-07-24T20:06:35.481Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 68828ed7d52ebb630e7242b6 is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T20:06:35.483Z"}
+{"level":"debug","message":"Socket OUlONsKr5k46j6U3AAA3 in room 68828ed7d52ebb630e7242b6 updated to phase: finished","service":"SocketServer","timestamp":"2025-07-24T20:06:35.484Z"}
+{"level":"debug","message":"Socket uu0WEM4cuLeYoPq0AAA- in room 68828ed7d52ebb630e7242b6 updated to phase: finished","service":"SocketServer","timestamp":"2025-07-24T20:06:35.484Z"}
+{"level":"info","message":"Socket disconnected: uu0WEM4cuLeYoPq0AAA- (User: 687aa60d1ef345cae0fe41d0). Reason: transport close","service":"SocketServer","timestamp":"2025-07-24T20:06:36.039Z"}
+{"level":"info","message":"Socket disconnected: OUlONsKr5k46j6U3AAA3 (User: 687aa5ff1ef345cae0fe41cd). Reason: transport close","service":"SocketServer","timestamp":"2025-07-24T20:06:36.101Z"}
+{"level":"info","message":"Socket authenticated: nqErJtU4lVF7Uy26AABB (User: 687aa5ff1ef345cae0fe41cd)","service":"SocketServer","timestamp":"2025-07-24T20:06:36.202Z"}
+{"level":"info","message":"Socket connected: nqErJtU4lVF7Uy26AABB (User: 687aa5ff1ef345cae0fe41cd)","service":"SocketServer","timestamp":"2025-07-24T20:06:36.207Z"}
+{"level":"info","message":"User 687aa5ff1ef345cae0fe41cd joined Socket.IO room 68828ed7d52ebb630e7242b6.","service":"SocketServer","timestamp":"2025-07-24T20:06:36.212Z"}
+{"level":"info","message":"[handleJoinRoom] Room ID 68828ed7d52ebb630e7242b6 is a valid ObjectId and room was found in DB.","service":"SocketServer","timestamp":"2025-07-24T20:06:36.218Z"}
+{"level":"debug","message":"Socket nqErJtU4lVF7Uy26AABB in room 68828ed7d52ebb630e7242b6 updated to phase: finished","service":"SocketServer","timestamp":"2025-07-24T20:06:36.222Z"}
+{"level":"info","message":"Socket disconnected: nqErJtU4lVF7Uy26AABB (User: 687aa5ff1ef345cae0fe41cd). Reason: transport close","service":"SocketServer","timestamp":"2025-07-24T20:06:36.589Z"}
